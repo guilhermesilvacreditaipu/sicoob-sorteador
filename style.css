@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('imagem/background sicoob.jpg');
+}
+
+.container {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sicoob-logo {
+    width: 400px;
+    height: auto;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+input {
+    font-size: 1em;
+    padding: 8px;
+    margin: 0 5px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #0A3841;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00A091;
+}
+
+h1, h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Adiciona um estilo para os números sorteados */
+.numero-sorteado {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-size: 10em;
+    background-color: #00A091;
+    color: #003641;
+    border-radius: 50%;
+    font-weight: bold; /* Adiciona negrito */
+}
